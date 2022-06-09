@@ -1,6 +1,6 @@
-# Make-a-share-function
+# Text Filtering Function
 ## Introduction
-The Make_a_share function is a function that helps in filtering a request to share an email or a note that an email has been shared already. The function was written in python programming language.
+The Text Filtering Function is a function that helps in filtering a request to share an email or a note that an email has been shared already. The function was written in python programming language.
 
 ## Definition of terms and variable used
 The function was defined with the word "Make_a_share" which accept a sentence as an arguement. Below are other variable and terms used in the code:
@@ -17,12 +17,12 @@ For a code to achieve it aim, it must be able to solve the intended problem. In 
 
 import Make_a_share
    #OR
-from make_a_share_function import Make_a_share
+from Text_Filter import Make_a_share
 
    #TO CALL FUCTION AFTER CALLING
 Make_a_share()                                   #the sentence will be inputed inside the parenthesis
   #or
-make_a_share_function.Make_a_share()
+Text_Filter.Make_a_share()
 
  #Testing the function
 Make_a_share('Am I allowed to share your email')
