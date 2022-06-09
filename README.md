@@ -3,7 +3,7 @@
 The Text Filtering Function is a function that helps in filtering a request to share an email or a note that an email has been shared already. The function was written in python programming language.
 
 ## Definition of terms and variable used
-The function was defined with the word "Make_a_share" which accept a sentence as an arguement. Below are other variable and terms used in the code:
+The function was defined with the word "text_filter" which accept a sentence as an arguement. Below are other variable and terms used in the code:
 1. Two keywords "share" and "email were defined in order to limit our sentence filtering to sentences that have these keywords
 2. An if-elif-else statement was used to break down the conditions that must be met
 ## How it works
@@ -15,23 +15,23 @@ For a code to achieve it aim, it must be able to solve the intended problem. In 
 
 ~~~python
 
-import Make_a_share
+import text_filter
    #OR
-from Text_Filter import Make_a_share
+from Text_Filtering import text_filter
 
-   #TO CALL FUCTION AFTER CALLING
-Make_a_share()                                   #the sentence will be inputed inside the parenthesis
+   #TO CALL FUCTION AFTER IMPORTING
+text_filter()                                   #the sentence will be inputed inside the parenthesis
   #or
-Text_Filter.Make_a_share()
+Text_Filtering.text_filter()
 
  #Testing the function
-Make_a_share('Am I allowed to share your email')
+text_filter('Am I allowed to share your email')
 
-Make_a_share('I am able share your email')
+text_filter('I am able share your email')
 ~~~
 
 ## Complexity of the code
-The function follows the principle of linear search algorithm which is the simplest approach employed to search for an element in a data set. It examines each element until it finds a match, starting at the beginning of the data set, until the end. The search is finished and terminated once the target element is located. If it finds no match, the algorithm must terminate its execution and return an appropriate result. Therefore the Time Complexity of the make_a_share function in its worst case i.e in Big(O) notation = O(n)
+The function follows the principle of linear search algorithm which is the simplest approach employed to search for an element in a data set. It examines each element until it finds a match, starting at the beginning of the data set, until the end. The search is finished and terminated once the target element is located. If it finds no match, the algorithm must terminate its execution and return an appropriate result. Therefore the Time Complexity of the text_filtering function in it worst case i.e in Big(O) notation = O(n)
 
 ## Conclusion
 The function was able to solve the task of filtering an email at the shortest possible time and it also consume less reasources which makes it to be efficient and reusable.
