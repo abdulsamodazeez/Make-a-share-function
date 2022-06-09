@@ -11,7 +11,7 @@ The function firstly convert the inputed sentence into a lower case form in orde
 Secondly, it checks if the sentence contain the two defined keywords, then if the sentence does not contain these keywords: the function returns a "None" statement else it moves to the next step,
 Finaly, some request words such as "can", "want", "could", "should" e.t.c were defined and must be in or start the sentence for the fuction to return a statement that "Student wants to know if can share" else it return a statment that "Student has shared"
 ## How to use the code
-For a code to achieve it aim, it must be able to solve the intended problem. In order to be able to use the function locally, the users should firstly clone the make_a_share function script into their current working directory, then export it as a module which the users can later import in their code. The code snippet below shows the various way the on how the user can import the function
+For a code to achieve it aim, it must be able to solve the intended problem. In order to be able to use the function locally, the users should firstly clone the text_filtering function script into their current working directory, then import in their code. The code snippet below shows the various ways on how the user can import the function
 
 ~~~python
 
